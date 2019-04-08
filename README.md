@@ -18,7 +18,7 @@ Summary of configurations made:
 - Allowed sudo for user "grader" in /etc/sudoers.d/grader
 - Updated/upgraded all installed packages
 - Switched SSH default port to accept from 2200
-- UFW config (Allow 2200 for SSH, Allow port 80 for HTTP)
+- UFW config (Allow 2200 for SSH, Allow port 80 for HTTP, Allow 123 for NTP)
 - Configure time-zone with dpkg-reconfigure
 - Disabled SSH login for root
 - Allowed SSH for user grader, and user ubuntu
